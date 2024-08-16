@@ -1,0 +1,451 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1723777274745228, "dur":1623, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723777274746863, "dur":40, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1723777274746914, "dur":14, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1723777274746929, "dur":313, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1723777274747268, "dur":570, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723777274747838, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723777280094078, "dur":163, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723777280094241, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723777280094262, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723777280094265, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723777280094274, "dur":112, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723777280094386, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723777280094398, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723777280094401, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723777280094408, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723777280094410, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723777280094417, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723777280094419, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723777280094425, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723777280094428, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723777280094434, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723777280094437, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723777280094444, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723777280094455, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723777280094478, "dur":49842, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1723777274747699, "dur":223, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1723777274747922, "dur":5331, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1723777274753253, "dur":959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1723777274754215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1723777274811181, "dur":49240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1723777274860512, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1723777274860911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1723777274860942, "dur":45072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1723777274906083, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1723777274906248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1723777274906275, "dur":72657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1723777274979034, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1723777274979193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1723777274979202, "dur":101535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1723777275081713, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab.exe" }}
+,{ "pid":12345, "tid":1, "ts":1723777275081847, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1723777275081865, "dur":431960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab.exe" }}
+,{ "pid":12345, "tid":1, "ts":1723777275513846, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723777275518463, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1723777275518525, "dur":375658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723777275894246, "dur":2780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723777275897032, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1723777275897042, "dur":371126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723777276268196, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723777276268219, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1723777276268226, "dur":238360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723777276506609, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723777276506626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1723777276506633, "dur":256915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723777276763594, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723777276763629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1723777276763635, "dur":240210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723777277003883, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723777277003937, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1723777277003950, "dur":174154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723777277178130, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723777277178153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1723777277178161, "dur":167171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723777277345406, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723777277345521, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1723777277345598, "dur":352133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723777277697779, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723777277697820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1723777277697829, "dur":1121478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723777278819376, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723777278819439, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1723777278819458, "dur":288628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723777279108101, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723777279108117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1723777279108122, "dur":198596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723777279306735, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723777279306766, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1723777279306770, "dur":519317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1723777279826107, "dur":7321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1723777279833433, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1723777279833440, "dur":259792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1723777280093249, "dur":797, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723777274747661, "dur":227, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723777274747889, "dur":5305, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723777274753199, "dur":1104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1723777274754306, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723777275010308, "dur":215366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1723777275229024, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723777275229244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723777275301239, "dur":266666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723777275567922, "dur":187478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723777275755420, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723777275755446, "dur":141607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723777275897088, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723777275897115, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723777275897123, "dur":414593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723777276311731, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723777276311747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723777276311752, "dur":272378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723777276584147, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723777276584163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723777276584169, "dur":183592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723777276767781, "dur":33980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723777276801772, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723777276801787, "dur":324041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723777277125859, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723777277125890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723777277125901, "dur":138161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723777277264080, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723777277264098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723777277264104, "dur":201316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723777277465434, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723777277465449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723777277465456, "dur":233246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723777277698727, "dur":101223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723777277799957, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723777277799967, "dur":1072317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723777278872305, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723777278872336, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723777278872347, "dur":234370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723777279106734, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723777279106759, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723777279106765, "dur":204372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723777279311153, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723777279311171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723777279311177, "dur":484433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1723777279795624, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1723777279795732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1723777279795736, "dur":297812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1723777280093565, "dur":531, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723777274747955, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723777274747955, "dur":5298, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723777274753254, "dur":1046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1723777274754303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723777274979776, "dur":101084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1723777275081746, "dur":2658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1723777275084416, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723777275100071, "dur":794147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1723777275894401, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723777275894446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723777275894453, "dur":299118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723777276193589, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723777276193607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723777276193640, "dur":288642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723777276482295, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723777276482309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723777276482314, "dur":280746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723777276763106, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723777276763144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723777276763155, "dur":119258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723777276882495, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723777276882601, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723777276882629, "dur":271491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723777277154135, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723777277154150, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723777277154154, "dur":191012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723777277345229, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723777277345297, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723777277345322, "dur":315246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723777277660595, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723777277660623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723777277660633, "dur":151881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723777277812534, "dur":1123804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723777278936342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723777278936349, "dur":171741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723777279108106, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723777279108124, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723777279108129, "dur":198598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723777279306743, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723777279306761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723777279306767, "dur":406018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723777279712853, "dur":37513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723777279750376, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723777279750391, "dur":152375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1723777279902801, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1723777279902829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1723777279902837, "dur":190648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1723777280093498, "dur":598, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1723777274747862, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1723777274747865, "dur":5323, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1723777274753199, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1723777274753202, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1723777274753262, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1723777274753271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1723777274764460, "dur":46608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1723777274811074, "dur":648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1723777274811729, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1723777274813283, "dur":47002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1723777274860442, "dur":512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1723777274860958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1723777274860966, "dur":46018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1723777274907520, "dur":547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1723777274932775, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1723777274932783, "dur":77065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1723777275009926, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723777275010088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1723777275010094, "dur":1258155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723777276268317, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723777276268334, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1723777276268338, "dur":238244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723777276506603, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723777276506634, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1723777276506638, "dur":257995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723777276764654, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723777276764682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1723777276764731, "dur":268569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723777277033376, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723777277033461, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1723777277033481, "dur":145101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723777277178601, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723777277178625, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1723777277178633, "dur":223596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723777277402252, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723777277402283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1723777277402292, "dur":296868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723777277699183, "dur":163540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723777277862727, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1723777277862734, "dur":1170623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723777279033377, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723777279033402, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1723777279033409, "dur":158997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723777279192422, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723777279192436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1723777279192442, "dur":184590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723777279377086, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723777279377147, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1723777279377166, "dur":528748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1723777279905949, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1723777279905989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1723777279906001, "dur":158046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1723777280064072, "dur":30002, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723777274747741, "dur":220, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723777274747961, "dur":5261, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723777274753222, "dur":1035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1723777274754259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723777274810856, "dur":49464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1723777274860868, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1723777274861007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723777274861014, "dur":45657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1723777274907503, "dur":528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1723777274908036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723777274908045, "dur":74050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1723777274982174, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723777274982315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723777275009785, "dur":274884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723777275284756, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723777275284780, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723777275284849, "dur":228967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723777275513840, "dur":52531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723777275566378, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723777275566386, "dur":327816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723777275894247, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723777275894306, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723777275894325, "dur":328002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723777276222351, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723777276222375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723777276222385, "dur":259038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723777276481445, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723777276481470, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723777276481477, "dur":148094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723777276629586, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723777276629600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723777276629605, "dur":218831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723777276848492, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723777276848601, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723777276848627, "dur":277229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723777277125899, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723777277126123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723777277126135, "dur":203890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723777277330119, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723777277330182, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723777277330202, "dur":279445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723777277609690, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723777277609718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723777277609728, "dur":128988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723777277738745, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723777277738788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723777277738798, "dur":1134598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723777278873413, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723777278873465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723777278873471, "dur":294173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723777279167658, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723777279167672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723777279167678, "dur":142522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723777279310213, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723777279310253, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723777279310258, "dur":485328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1723777279795601, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1723777279795613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723777279795617, "dur":199892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1723777279995527, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1723777279995684, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1723777279995691, "dur":98321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1723777280094024, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1723777280094026, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723777274748087, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723777274748088, "dur":5163, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723777274753252, "dur":1010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1723777274754265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723777274858807, "dur":3194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1723777274862695, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1723777274862855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723777274864401, "dur":42058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1723777274907457, "dur":608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1723777274932760, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723777274932774, "dur":77082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1723777275010780, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1723777275010920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723777275080698, "dur":487188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1723777275567981, "dur":187506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723777275755502, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723777275755524, "dur":177697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723777275933235, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723777275933249, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723777275933254, "dur":421769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723777276355077, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723777276355143, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723777276355160, "dur":127723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723777276482901, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723777276482921, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723777276482928, "dur":280165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723777276763136, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723777276763160, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723777276763165, "dur":119270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723777276882519, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723777276882619, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723777276882645, "dur":271390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723777277154050, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723777277154067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723777277154073, "dur":176474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723777277330611, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723777277330771, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723777277330792, "dur":346079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723777277676910, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723777277676949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723777277676962, "dur":1142455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723777278819481, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723777278819544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723777278819560, "dur":293735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723777279113312, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723777279113365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723777279113376, "dur":197782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723777279311174, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723777279311190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723777279311195, "dur":410788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1723777279722033, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1723777279722079, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723777279722117, "dur":185913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1723777279908055, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1723777279908081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1723777279908090, "dur":155960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1723777280064070, "dur":29977, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723777274748222, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723777274748223, "dur":5029, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723777274753253, "dur":1988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1723777274755243, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723777275080873, "dur":203791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1723777275284751, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723777275284773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723777275284821, "dur":228993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723777275513840, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723777275513869, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723777275518564, "dur":375692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723777275894298, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723777275894430, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723777275894444, "dur":262248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723777276156715, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723777276156738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723777276156746, "dur":262179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723777276418947, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723777276418984, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723777276418992, "dur":119606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723777276538612, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723777276538629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723777276538637, "dur":264666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723777276803321, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723777276803339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723777276803346, "dur":301193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723777277104583, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723777277104632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723777277104647, "dur":138214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723777277242880, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723777277242895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723777277242902, "dur":157930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723777277400885, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723777277400916, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723777277400926, "dur":296768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723777277697739, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723777277697799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723777277697809, "dur":115629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723777277813457, "dur":1227205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723777279040666, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723777279040673, "dur":219860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723777279260584, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723777279260601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723777279260608, "dur":418024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723777279678695, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723777279678758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723777279678776, "dur":225313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1723777279904116, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1723777279904141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1723777279904149, "dur":159894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1723777280064059, "dur":30016, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723777274748411, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723777274748412, "dur":4809, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723777274753222, "dur":1067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1723777274754291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723777274905947, "dur":26847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1723777274932908, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1723777274933077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723777274933086, "dur":76555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1723777275009753, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723777275009945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723777275009971, "dur":838896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723777275849281, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723777275849342, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723777275849357, "dur":95782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723777275945158, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723777275945185, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723777275945191, "dur":366532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723777276311741, "dur":213602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723777276525348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723777276525354, "dur":238043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723777276763436, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723777276763517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723777276763530, "dur":192120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723777276955678, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723777276955704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723777276955712, "dur":198319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723777277154048, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723777277154165, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723777277154170, "dur":190979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723777277345210, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723777277345272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723777277345291, "dur":354498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723777277699812, "dur":222889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723777277922706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723777277922712, "dur":1148214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723777279070942, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723777279070955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723777279070961, "dur":235780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723777279306763, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723777279306780, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723777279306784, "dur":488758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1723777279795557, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/File Unity/Game Garden Grab/Garden Grab_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1723777279795585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1723777279795591, "dur":298384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/File Unity/Game Garden Grab/Garden Grab_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1723777280093987, "dur":86, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1723777280153746, "dur":2064, "ph":"X", "name": "ProfilerWriteOutput" }
+,
