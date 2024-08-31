@@ -6,8 +6,8 @@ using UnityEngine;
 public class BoxController : MonoBehaviour
 {
     public float moveSpeed = 1f;
-    public float minX = -8.1f; // Koordinat X minimum
-    public float maxX = 7.9f;  // Koordinat X maksimum
+    public float minX; // Koordinat X minimum
+    public float maxX; // Koordinat X maksimum
     private GameManager gameManager;
 
 
@@ -49,5 +49,10 @@ public class BoxController : MonoBehaviour
         {
             gameManager.ReduceLives(1);
         }
+        if (other.CompareTag("Life"))
+        {
+            gameManager.IncreaseLives(1);
+        }
     }
+    
 }

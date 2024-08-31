@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Github\\GardenGrab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74DE6730-417C-8523-99DC-73C95D81FCE1}|Assembly-CSharp.csproj|E:\\Github\\GardenGrab\\assets\\scripts\\objectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74DE6730-417C-8523-99DC-73C95D81FCE1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74DE6730-417C-8523-99DC-73C95D81FCE1}|Assembly-CSharp.csproj|E:\\Github\\GardenGrab\\assets\\scripts\\boxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74DE6730-417C-8523-99DC-73C95D81FCE1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\boxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74DE6730-417C-8523-99DC-73C95D81FCE1}|Assembly-CSharp.csproj|e:\\github\\gardengrab\\assets\\scripts\\objectpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74DE6730-417C-8523-99DC-73C95D81FCE1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74DE6730-417C-8523-99DC-73C95D81FCE1}|Assembly-CSharp.csproj|E:\\Github\\GardenGrab\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74DE6730-417C-8523-99DC-73C95D81FCE1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BoxController.cs",
+              "DocumentMoniker": "E:\\Github\\GardenGrab\\Assets\\scripts\\BoxController.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\BoxController.cs",
+              "ToolTip": "E:\\Github\\GardenGrab\\Assets\\scripts\\BoxController.cs",
+              "RelativeToolTip": "Assets\\scripts\\BoxController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAuwCwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T08:38:48.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ObjectController.cs",
+              "DocumentMoniker": "E:\\Github\\GardenGrab\\Assets\\scripts\\ObjectController.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\ObjectController.cs",
+              "ToolTip": "E:\\Github\\GardenGrab\\Assets\\scripts\\ObjectController.cs",
+              "RelativeToolTip": "Assets\\scripts\\ObjectController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAuwCoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T11:17:18.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "E:\\Github\\GardenGrab\\Assets\\scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\GameManager.cs",
+              "ToolTip": "E:\\Github\\GardenGrab\\Assets\\scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\scripts\\GameManager.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAmwEIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T11:14:34.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ObjectPool.cs",
+              "DocumentMoniker": "E:\\Github\\GardenGrab\\Assets\\scripts\\ObjectPool.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\ObjectPool.cs",
+              "ToolTip": "E:\\Github\\GardenGrab\\Assets\\scripts\\ObjectPool.cs",
+              "RelativeToolTip": "Assets\\scripts\\ObjectPool.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAowFgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T09:23:25.931Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
