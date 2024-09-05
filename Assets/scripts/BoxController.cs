@@ -5,11 +5,14 @@ using UnityEngine;
 
 public class BoxController : MonoBehaviour
 {
-    public float moveSpeed = 1f;
-    public float minX; // Koordinat X minimum
-    public float maxX; // Koordinat X maksimum
     private GameManager gameManager;
 
+    public bool isDragging = false;
+    private Vector3 offset;
+
+    // Batasan pada sumbu X
+    private float minX = -22f;
+    private float maxX = 18.5f;
 
     // Start is called before the first frame update
     void Start()
@@ -20,28 +23,28 @@ public class BoxController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //input untuk tombol A dan D
-        float moveDirection = 0f;
-
-        if (Input.GetKey(KeyCode.A))
+        if (isDragging)
         {
-            moveDirection = -1f; 
+            Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector3 newPosition = mousePosition + offset;
+
+            // Batasi posisi X agar berada di antara minX dan maxX
+            newPosition.x = Mathf.Clamp(newPosition.x, minX, maxX);
+
+            // Update posisi objek
+            transform.position = newPosition;
         }
-        else if (Input.GetKey(KeyCode.D))
-        {
-            moveDirection = 1f;
-        }
-
-        // Hitung posisi baru berdasarkan arah dan kecepatan
-        float newX = transform.position.x + moveDirection * moveSpeed * Time.deltaTime;
-
-        // membatasi posisi X agar tidak melewati batas
-        newX = Mathf.Clamp(newX, minX, maxX);
-
-        // Terapkan posisi baru
-        transform.position = new Vector3(newX, transform.position.y, transform.position.z);
-
     }
+    private void OnMouseDown()
+    {
+        isDragging = true;
+        offset = (Vector3)transform.position - (Vector3)Camera.main.ScreenToWorldPoint(Input.mousePosition);
+    }
+    private void OnMouseUp()
+    {
+        isDragging = false;
+    }
+
     void OnTriggerEnter(Collider other)
     {
         //mengecek apakah objek terkena obstacle lalu mengurangi nyawa
@@ -54,5 +57,8 @@ public class BoxController : MonoBehaviour
             gameManager.IncreaseLives(1);
         }
     }
+
+
     
+
 }

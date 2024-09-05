@@ -1,0 +1,32 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Ll]ogs/
+MemoryCaptures/
+*.pidb
+*.suo
+*.user
+*.userprefs
+*.csproj
+*.unityproj
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+.vscode/
+.idea/
+.vs/
+
+# Audio
+*.mp3
+*.ogg
+*.wav
+
+# Images
+*.jpg
+*.png
+
+# Miscellaneous
+*.unitypackage

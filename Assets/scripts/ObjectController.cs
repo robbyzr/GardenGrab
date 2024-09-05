@@ -47,7 +47,7 @@ public class ObjectController : MonoBehaviour
         {
             gameObject.SetActive(false);
             gameManager.AddPoints(point);
-            Debug.Log("KELUAR");
+            
         }
     }
 

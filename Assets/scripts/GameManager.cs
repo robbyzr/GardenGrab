@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -11,14 +12,13 @@ public class GameManager : MonoBehaviour
     public Text remainingLives;
     
     public Text scoreTotal;
-    /*
-    public GameObject startPanel;
+   
     public GameObject endPanel;
-    */
+    
     private void Start()
     {
-       // startPanel.SetActive(true);
-       // Paused();
+       
+     
     }
 
     private void Update()
@@ -38,10 +38,10 @@ public class GameManager : MonoBehaviour
     {
         lives -= live;
         remainingLives.text = lives.ToString();
-       /* if (lives <= 0)
+       if (lives <= 0)
         {
             EndGame();
-        }*/
+        }
     }
     public void IncreaseLives(float live)
     {
@@ -69,12 +69,25 @@ public class GameManager : MonoBehaviour
         score.text = "Score: " + totalPoints.ToString();
 
     }
-        /*
+     
     public void EndGame()
     {
         scoreTotal.text ="Your Score: " + totalPoints.ToString();
         endPanel.SetActive(true);
         
         Paused();
-    }*/
+    }
+
+    public void Gameplay()
+    {
+        SceneManager.LoadScene("Gameplay");
+    }
+    public void Mainmenu()
+    {
+        SceneManager.LoadScene("Mainmenu");
+    }
+    public void Exitgame()
+    {
+        Application.Quit();
+    }
 }
