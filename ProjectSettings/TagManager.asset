@@ -8,6 +8,7 @@ TagManager:
   - Obstacle
   - Life
   - InvisibleWall
+  - Audio
   layers:
   - Default
   - TransparentFX

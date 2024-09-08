@@ -14,6 +14,13 @@ public class BoxController : MonoBehaviour
     private float minX = -22f;
     private float maxX = 18.5f;
 
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager =  GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -51,10 +58,12 @@ public class BoxController : MonoBehaviour
         if (other.CompareTag("Obstacle"))
         {
             gameManager.ReduceLives(1);
+            audioManager.PlaySFX(audioManager.bomb);
         }
         if (other.CompareTag("Life"))
         {
             gameManager.IncreaseLives(1);
+            audioManager.PlaySFX(audioManager.heart);
         }
     }
 

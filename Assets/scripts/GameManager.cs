@@ -12,26 +12,40 @@ public class GameManager : MonoBehaviour
     public Text remainingLives;
     
     public Text scoreTotal;
+    public GameObject howtoPanel;
    
     public GameObject endPanel;
-    
+
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+       
+    }
     private void Start()
     {
-       
-     
+        if (SceneManager.GetActiveScene().name == "Gameplay")
+        {
+            howtoPanel.SetActive(true);
+            Paused();
+        }
+
     }
 
-    private void Update()
-    {
-        
-    }
-    
-    
+
+
     //menambah point score
     public void AddPoints(float points)
     {
         totalPoints += points;
         score.text = "Score: " + totalPoints.ToString();
+        audioManager.PlaySFX(audioManager.scoreIn);
+    }
+
+    public void ButtonClick()
+    {
+        audioManager.PlaySFX(audioManager.click);
     }
     //mengurangi nyawa
     public void ReduceLives(float live)
@@ -74,7 +88,7 @@ public class GameManager : MonoBehaviour
     {
         scoreTotal.text ="Your Score: " + totalPoints.ToString();
         endPanel.SetActive(true);
-        
+        audioManager.PlaySFX(audioManager.endgame);
         Paused();
     }
 

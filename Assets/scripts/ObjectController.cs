@@ -7,8 +7,8 @@ using UnityEngine;
 public class ObjectController : MonoBehaviour
 {
     public float dropVelocity;
-    public float rotationSpeed;
-    public float point;
+    public float rotationSpeed; //agar objek berputar
+    public float point; //point disetiap objek
     public float velocityMultiplier = -1.5f;
     public float velocityNow;
     private GameManager gameManager;
@@ -32,7 +32,7 @@ public class ObjectController : MonoBehaviour
         //agar objek berotasi di semua sumbu
         transform.Rotate(new Vector3(rotationSpeed, rotationSpeed, rotationSpeed) * Time.deltaTime);
         
-        //jika tidak masuk box dan melewati y -55
+        //jika tidak masuk box dan melewati y -55(melewati bawah layar)
         if (transform.position.y < -55)
         {
             gameObject.SetActive(false);

@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "E:\\Github\\GardenGrab\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{74DE6730-417C-8523-99DC-73C95D81FCE1}|Assembly-CSharp.csproj|e:\\github\\gardengrab\\assets\\scripts\\volumesetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74DE6730-417C-8523-99DC-73C95D81FCE1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\volumesetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74DE6730-417C-8523-99DC-73C95D81FCE1}|Assembly-CSharp.csproj|E:\\Github\\GardenGrab\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74DE6730-417C-8523-99DC-73C95D81FCE1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{74DE6730-417C-8523-99DC-73C95D81FCE1}|Assembly-CSharp.csproj|e:\\github\\gardengrab\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74DE6730-417C-8523-99DC-73C95D81FCE1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74DE6730-417C-8523-99DC-73C95D81FCE1}|Assembly-CSharp.csproj|E:\\Github\\GardenGrab\\assets\\scripts\\objectpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74DE6730-417C-8523-99DC-73C95D81FCE1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74DE6730-417C-8523-99DC-73C95D81FCE1}|Assembly-CSharp.csproj|E:\\Github\\GardenGrab\\assets\\scripts\\boxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{74DE6730-417C-8523-99DC-73C95D81FCE1}|Assembly-CSharp.csproj|E:\\Github\\GardenGrab\\assets\\scripts\\objectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74DE6730-417C-8523-99DC-73C95D81FCE1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74DE6730-417C-8523-99DC-73C95D81FCE1}|Assembly-CSharp.csproj|E:\\Github\\GardenGrab\\assets\\scripts\\objectpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74DE6730-417C-8523-99DC-73C95D81FCE1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,41 +34,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VolumeSetting.cs",
+              "DocumentMoniker": "E:\\Github\\GardenGrab\\Assets\\scripts\\VolumeSetting.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\VolumeSetting.cs",
+              "ToolTip": "E:\\Github\\GardenGrab\\Assets\\scripts\\VolumeSetting.cs",
+              "RelativeToolTip": "Assets\\scripts\\VolumeSetting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T14:41:58.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "E:\\Github\\GardenGrab\\Assets\\scripts\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\AudioManager.cs",
+              "ToolTip": "E:\\Github\\GardenGrab\\Assets\\scripts\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\scripts\\AudioManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T14:11:44.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "BoxController.cs",
               "DocumentMoniker": "E:\\Github\\GardenGrab\\Assets\\scripts\\BoxController.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\BoxController.cs",
               "ToolTip": "E:\\Github\\GardenGrab\\Assets\\scripts\\BoxController.cs",
               "RelativeToolTip": "Assets\\scripts\\BoxController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAiwA0AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwDwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-28T08:38:48.701Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ObjectController.cs",
-              "DocumentMoniker": "E:\\Github\\GardenGrab\\Assets\\scripts\\ObjectController.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\ObjectController.cs",
-              "ToolTip": "E:\\Github\\GardenGrab\\Assets\\scripts\\ObjectController.cs",
-              "RelativeToolTip": "Assets\\scripts\\ObjectController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T11:17:18.075Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "GameManager.cs",
               "DocumentMoniker": "E:\\Github\\GardenGrab\\Assets\\scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\GameManager.cs",
               "ToolTip": "E:\\Github\\GardenGrab\\Assets\\scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\scripts\\GameManager.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAADwv1YAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBUAAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T11:14:34.386Z",
               "EditorCaption": ""
@@ -76,6 +98,18 @@
               "ViewState": "AgIAAF0AAAAAAAAAAAAowFgAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-20T09:23:25.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ObjectController.cs",
+              "DocumentMoniker": "E:\\Github\\GardenGrab\\Assets\\scripts\\ObjectController.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\ObjectController.cs",
+              "ToolTip": "E:\\Github\\GardenGrab\\Assets\\scripts\\ObjectController.cs",
+              "RelativeToolTip": "Assets\\scripts\\ObjectController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T11:17:18.075Z"
             }
           ]
         }

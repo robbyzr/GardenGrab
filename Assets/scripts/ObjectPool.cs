@@ -99,10 +99,10 @@ public class ObjectPool : MonoBehaviour
             // Pastikan prefab yang diinstansiasi sesuai dengan yang diinginkan
             if (obj.name != selectedPrefab.name)
             {
-                Destroy(obj); // Hapus objek yang tidak sesuai
+                obj.SetActive(false); // Nonaktifkan objek sebelum menggantinya
                 obj = Instantiate(selectedPrefab); // Buat yang baru
                 obj.SetActive(false); // Jangan lupa untuk menonaktifkan sebelum menambah ke pool
-                pooledObjects.Add(obj);
+                pooledObjects.Add(obj);   
             }
 
             // Memunculkan pada posisi random yang sudah ditentukan

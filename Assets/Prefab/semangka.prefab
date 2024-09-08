@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d155bcde30c25bb41845b078afe40597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dropVelocity: -25
+  dropVelocity: -40
   rotationSpeed: 100
   point: 40
   velocityMultiplier: 2
